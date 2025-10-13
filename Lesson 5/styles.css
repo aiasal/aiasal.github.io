@@ -1,0 +1,40 @@
+/* h1 {
+    font-weight: 200;
+}*/
+
+.container {
+    background-color: gray;
+} 
+
+.col {
+    background-color: brown;
+} 
+
+.row > div { 
+    border: solid 1px black;
+} 
+
+.btn-primary-1 { 
+    --bs--btn--bg: rgb(27, 114, 62);
+    --bs--btn-hover-bg: rgb(191, 11, 173);
+} 
+
+.hovering { 
+    colour: blue;
+} 
+
+.hovering:hover { 
+    colour: black;
+} 
+
+.hovering:active { 
+    colour: rgb(242, 255, 0);
+} 
+
+.hovering:visited { 
+    colour: rgb(218, 18, 128);
+} 
+
+.carousel.item >img { 
+    height: 500px;
+} 
