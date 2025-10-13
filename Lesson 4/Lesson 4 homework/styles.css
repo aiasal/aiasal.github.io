@@ -1,25 +1,16 @@
 div {
     background-color: grey;
-    } 
 
-.container {
-    display: flex;
-    background-color: blue;
-    flex-wrap: wrap;
-    } 
-
-.container > div {
-    font-size: 40px;
-    width: 50px;
-    place-content: center;
-    text-align: center;
-    margin: 5px;
-
-    }     
+    }  
 
   .webApp2 {
+        display: grid;
+        grid-template-columns: repeat(20, auto);
+        gap: 10px;
+        padding: 5px;
+        background-color: blueviolet;
         grid-template-areas: 
-        "header header header header header header header header header header header header header header header header header six six six"
+        "header1 header1 header1 header1 header1 header1 header1 header1 header2 header2 header2 header2 header2 header2 header2 header2 header2 six six six"
         "three three three three three three three three three three three three three four four four four six six six"
         "five five five five five five five five five five five five five five five five five six six six"
         "seven seven eight eight eight eight eleven twelve twelve twelve twelve twelve twelve thirteen thirteen thirteen thirteen six six six"
