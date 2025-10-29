@@ -333,5 +333,8 @@ function SaveGame() {
 }
 
 function Replay(boardPos) {
+    let historyBoard = document.getElementsByClassName("gameboard." + boardPos); // col-4 gameboard-POS
     console.log("Replay Board: " + boardPos);
+    console.log()
 }
+
