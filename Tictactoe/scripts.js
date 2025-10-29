@@ -6,7 +6,7 @@ let winnerText = null;
 let playerX = "";
 let playerO = "";
 let history = [];
-let conter = 0;
+let counter = 0;
 
 $(document).ready(function() {
     boardElements = document.getElementsByClassName("board");
@@ -295,7 +295,7 @@ function SaveGame() {
     card.append(replayButton);
     historyContainer.appendChild(card);
 
-    cont.setAttribute("id", "gameboard-" + conter);
+    cont.setAttribute("id", "gameboard-" + counter);
     replayButton.onclick = function() { Replay(0); };
 
 
